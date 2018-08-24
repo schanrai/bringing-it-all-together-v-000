@@ -60,8 +60,8 @@ attr_reader :id
   end
 
   def self.new_from_db(row)
-    student = Dog.new(row[0], row[1], row[2])
+    dog = Dog.new(row[0], row[1], row[2])
   end
 
-  
+
 end
