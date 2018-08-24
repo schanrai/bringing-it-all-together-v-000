@@ -70,5 +70,7 @@ attr_reader :id
     self.new_from_db(row)
   end
 
+  
+
 
 end
